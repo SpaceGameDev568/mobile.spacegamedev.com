@@ -7,27 +7,23 @@
     <link rel="shortcut icon" type="image/ico" href="images\sgdprofileimageround.png"/>
     <link rel="stylesheet" href="css\home.css">
     <!-- Start - Google Fonts and Icons Preconnects-->
-    <!-- Disabled: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- End - Google Fonts and Icons Preconnects-->
   </head>
 
   <body>
-    <!-- Detect device type and set 'is-screen-smoll' accordingly -->
-    <script> // Set screen size
+    <!-- Detect device type and redirect to mobile site if on mobile -->
+    <script>
 
-      // Get the root element
-      var r = document.querySelector(':root');
       // Create a function for setting a variable value
       function setscreensize_set() {
         let url = "https://www.w3docs.com";
         window.location.href = mobile.spacegamedev.com;
       }
-      // Get the styles (properties and values) for the root
-      var rs = getComputedStyle(r);
 
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         setscreensize_set()
