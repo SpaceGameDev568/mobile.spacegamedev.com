@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SpaceGameDev's Website</title>
+    <link rel="shortcut icon" type="image/ico" href="images\sgdprofileimageround.png"/>
+    <link rel="stylesheet" href="css\home.css">
+    <!-- Start - Google Fonts and Icons Preconnects-->
+    <!-- Disabled: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />-->
+    <!-- End - Google Fonts and Icons Preconnects-->
+  </head>
+
+  <body>
+    <!-- Detect device type and set 'is-screen-smoll' accordingly -->
+    <script> // Set screen size
+
+      // Get the root element
+      var r = document.querySelector(':root');
+      // Create a function for setting a variable value
+      function setscreensize_set() {
+        let url = "https://www.w3docs.com";
+        window.location.href = mobile.spacegamedev.com;
+      }
+      // Get the styles (properties and values) for the root
+      var rs = getComputedStyle(r);
+
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        setscreensize_set()
+      }
+    </script>
+    <!-- End detect device type detection -->
+
+    <!-- Start Header Section -->
+    <section class="header">
+      </div>
+      <div class="logo">
+      <br>
+      SpaceGameDev
+      </div>
+    </section>
+    <!-- End Header Section-->
+
+    <!-- Back to Top button copied from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <!-- Disabled in mobile version
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>-->
+    <!-- End Back to Top button -->
+
+    <!-- Start First Section -->
+    <section class="bio-short">
+      <br>
+      <br>
+      <img class="bio-short-logo" src="images\sgdprofileimageroundedcorners.png" width="128px">
+      <div class="intro01">
+        <p><br>
+          Hi, I'm SpaceGameDev
+        </p>
+      </div>
+
+      <div class="about01">
+        <p><br>
+          I'm a hobbyist developer and digital artist from the United States specializing in programming and 3D art.
+        </p>
+      </div><br><br><br>
+
+      <hr class="vert-border-medium01">
+    
+      
+    </section>
+    <!-- Start First Section -->
+
+    <!-- Start About Section -->
+    <section class="about-me">
+      <div class="about-me-header">
+        <p><br>
+          About
+        </p>
+      </div>
+      <div class="about-me-desc">
+        <p><br>
+            I am a student and hobbyist game developer from the United States. I have experience in making mods for games such as Satisfactory and making 3D art in Blender. I am also working on a game in Unreal Engine 5 to learn the software necessary to make video games. My main interests are space exploration, game design, and digital art.
+        </p>
+
+      </div>
+      
+    </section>
+    <!-- End About Section -->
+
+    <hr class="vert-border-medium01">
+
+    <!-- Start Apps Section -->
+    <section class="apps">
+      <br><br><br>
+      <p class="apps-header">
+      Sofware and programming languages I have experience with:
+      </p><br><br><br>
+      <center><img src="images\ui\appshalf1.png" width="200px"><br><br><img src="images\ui\appshalf2.png" width="200px"></center>
+    </section>
+    <!-- End Apps Section -->
+
+    <hr class="vert-border-medium01">
+
+    <!-- Start Projects Section-->
+    <section class="projects">
+      <br>
+      <p class="about-me-header">
+        Projects
+      </p>
+      <center><a href="https://ficsit.app/mod/Factory_Prop_Mod"><img src="images\ui\websitecardfprop.png" width="200px"></a></center>
+    </section>
+    <!-- End Projects Section -->
+
+    <hr class="vert-border-medium01">
+
+    <!-- Start Contact Section -->
+    <section class="contact">
+      <br>
+      <p class="about-me-header">
+          Contact
+      </p>
+      <p class="contact-desc">
+        If you would like to inquire about my work or need to contact me for any reason, please email me or reach out to me on Discord.
+      </p><br><br><br>
+      <p class="contact-info">
+        Email: spacegamedev568@gmail.com
+        <br><br>
+        Discord: SpaceGameDev568 #0596
+      </p>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer Section -->
+    <section class="footer">
+      <div class="footertext1">
+        <br>
+        <p>
+           Copyright © 2023 SpaceGameDev568.<br> All Rights Reserved.<br> The GitHub repository for this website can be found <a href="https://github.com/SpaceGameDev568/spacegamedev.com" style="color:#28a3e9">here</a>.
+        </p>
+        <br>
+      </div>
+      <div class="cf-attrib">
+        <p class="cf-attrib-text">
+            Pages and DNS by Cloudflare
+        </p>
+        <br>
+        <a href="https://pages.cloudflare.com"><img src="images\logos\cloudflarelogo.svg" class="cf-logo-bottom"></a>
+      </div>
+    </section>
+    <!-- End Footer Section -->
+  </body>
+
+</html>

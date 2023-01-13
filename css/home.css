@@ -1,0 +1,275 @@
+:root{
+    /* Declare Variables Here */
+    --screen-width: 1920px;
+    --is-screen-smol: false;
+}
+
+/* Add Orbitron Bold Font*/
+
+@font-face {
+    font-family: 'Orbitron';
+    font-style: bold;
+    font-weight: 700;
+    font-display: fallback;
+    src: local('Orbitron'), local('Orbitron Bold'), local('Orbitron-Bold'), url(fonts/Orbitron-Bold.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Whole Page */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*  Start Header Section */
+
+.header{
+    background: #2d333b;
+    height: 40px;
+    width: 100%;
+}
+
+.logo{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 12px;
+}
+
+/*  End Header Section */
+
+/* Start Back to Top button modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+/* Disabled in mobile version
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #707070;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 30px;*//* Default 18px*//*
+    font-family: Orbitron;
+    font-weight: bold
+  }
+
+  #myBtn:hover {
+    background-color: #5a5a5a;
+  }
+*/
+/* End Back to Top button */
+
+/*  Start Bio-Short Section */
+
+.bio-short{
+    background-color: #22272e;
+    height: 300px;
+    width: 100%;
+}
+
+.bio-short-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #707070;
+    border-radius: 36px;
+}
+
+.intro01{
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 40px;
+}
+
+.about01{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    font-family: Segoe UI;
+    font-size: 17px;
+    font-weight: semibold;
+    color: azure;
+    line-height: 125%;
+    line-break: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  End Bio-Short Section */
+
+/* Vertical Borders */
+
+.vert-border-medium01{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 3.125%;
+    width: 93.75%;
+    z-index: 10;
+    border: 5px solid #494e58;
+    border-radius: 10px
+}
+
+/* End Vertical Borders */
+
+/* Start About-Me Section */
+
+.about-me{
+    height: 700px;
+    width: 100%;
+    background-color: #22272e;
+}
+
+.about-me-header{
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 144px;
+}
+
+.about-me-desc{
+    z-index: 10;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: semibold;
+    justify-items: left;
+    text-align: left;
+    color: azure;
+    line-height: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End About-Me Section */
+
+/* Start Apps Section*/
+
+.apps{
+    width: 100%;
+    height: 660px;
+    background-color: #22272e;
+}
+
+.apps-header{
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: azure;
+    line-height: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Apps Section*/
+
+/* Start Projects Section */
+
+.projects{
+    width: 100%;
+    height: 300px;
+    background-color: #22272e;
+}
+
+/* End Projects Section */
+
+/* Start Contact Section */
+
+.contact{
+    width: 100%;
+    height: 550px;
+    background-color: #22272e;
+}
+
+.contact-desc{
+    z-index: 10;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: semibold;
+    justify-items: left;
+    text-align: left;
+    color: azure;
+    line-height: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info{
+    z-index: 10;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: semibold;
+    justify-items: left;
+    text-align: left;
+    color: azure;
+    line-height: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Contact Section */
+
+/* Start Footer Section */
+
+.footer{
+    background: #2d333b;
+    height: 240px;
+    width: 100%;
+}
+
+.footertext1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cf-attrib{
+    width: 90;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cf-logo-bottom{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Footer Section */

@@ -1,0 +1,28 @@
+/* Whole Page */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #22272e;
+}
+
+.avatar{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #707070;
+    border-radius: 60px;
+}
+
+.content{
+    background-color: #22272e;
+    color: azure;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
