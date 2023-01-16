@@ -29,7 +29,7 @@
 
 .logo{
     color: azure;
-    font-family: Orbitron;
+    font-family: Orbitron, Segoe UI;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -54,7 +54,7 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 30px;*//* Default 18px*//*
-    font-family: Orbitron;
+    font-family: Orbitron, Segoe UI;
     font-weight: bold
   }
 
@@ -132,7 +132,7 @@
     position: relative;
     z-index: 10;
     align-items: center;
-    font-family: Orbitron;
+    font-family: Orbitron, Segoe UI;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -168,7 +168,7 @@
     position: relative;
     z-index: 10;
     align-items: center;
-    font-family: Orbitron;
+    font-family: Orbitron, Segoe UI;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -253,7 +253,7 @@
     margin-left: auto;
     margin-right: auto;
     color: azure;
-    font-family: Orbitron;
+    font-family: Orbitron, Segoe UI;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
