@@ -29,7 +29,7 @@
 
 .logo{
     color: azure;
-    font-family: Orbitron, Segoe UI;
+    font-family: Orbitron, Segoe UI, sans-serif;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -54,7 +54,7 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 30px;*//* Default 18px*//*
-    font-family: Orbitron, Segoe UI;
+    font-family: Orbitron, Segoe UI, sans-serif;
     font-weight: bold
   }
 
@@ -81,7 +81,7 @@
 }
 
 .intro01{
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -93,7 +93,7 @@
     display: flex;
     width: 90%;
     text-align: left;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 17px;
     font-weight: semibold;
     color: azure;
@@ -132,7 +132,7 @@
     position: relative;
     z-index: 10;
     align-items: center;
-    font-family: Orbitron, Segoe UI;
+    font-family: Orbitron, Segoe UI, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -142,7 +142,7 @@
 
 .about-me-desc{
     z-index: 10;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 15px;
     font-weight: semibold;
     justify-items: left;
@@ -168,7 +168,7 @@
     position: relative;
     z-index: 10;
     align-items: center;
-    font-family: Orbitron, Segoe UI;
+    font-family: Orbitron, Segoe UI, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -201,7 +201,7 @@
 
 .contact-desc{
     z-index: 10;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 15px;
     font-weight: semibold;
     justify-items: left;
@@ -215,7 +215,7 @@
 
 .contact-info{
     z-index: 10;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 15px;
     font-weight: semibold;
     justify-items: left;
@@ -242,7 +242,7 @@
     margin-left: auto;
     margin-right: auto;
     color: azure;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-weight: bold;
     font-size: 15px;
     text-align: center;
@@ -253,7 +253,7 @@
     margin-left: auto;
     margin-right: auto;
     color: azure;
-    font-family: Orbitron, Segoe UI;
+    font-family: Orbitron, Segoe UI, sans-serif;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
