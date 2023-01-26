@@ -9,6 +9,17 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-display: fallback;
+    src: local('Open Sans'), local('Open Sans Bold'), local('Open-Sans-Bold'), url(OpenSans-Bold.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
 /* Whole Page */
 
 *{
@@ -37,32 +48,6 @@
 }
 
 /*  End Header Section */
-
-/* Start Back to Top button modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-/* Disabled in mobile version
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #707070;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 30px;*//* Default 18px*//*
-    font-family: Orbitron, Open Sans, sans-serif;
-    font-weight: bold
-  }
-
-  #myBtn:hover {
-    background-color: #5a5a5a;
-  }
-*/
-/* End Back to Top button */
 
 /*  Start Bio-Short Section */
 
