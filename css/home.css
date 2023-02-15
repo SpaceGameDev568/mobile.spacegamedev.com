@@ -39,12 +39,8 @@
 }
 
 .logo{
-    color: azure;
-    font-family: Orbitron, Open Sans, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
     text-align: center;
-    line-height: 12px;
+    line-height: 7px;
 }
 
 /*  End Header Section */
@@ -128,7 +124,7 @@
 .about-me-desc{
     z-index: 10;
     font-family: Open Sans, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: semibold;
     justify-items: left;
     text-align: left;
@@ -276,7 +272,7 @@
 
 .cf-logo-bottom{
     text-align: center;
-    width: 90%;
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
 }
